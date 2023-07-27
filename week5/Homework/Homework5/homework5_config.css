@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h4 {
+    color: white;
+    font-size: large;
+
+}
+
+p {
+    color: white;
+    font-size: large;
+
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 150px;
+    font-family: 'Lato', sans-serif;
+}
+
+#titlecolumn {
+    width: 35%
+}
+
+.contentcolumn {
+    width: 21%;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    border-bottom: 5px solid white;
+}
+
+.img {
+    align-items: center;
+}
+
+.txt {
+    text-align: left;
+}

@@ -1,0 +1,29 @@
+div#left {
+    width: 45%;
+    border: 10px solid black;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    padding: 25px 50px 25px 50px;
+    margin-left: -20px;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: left;
+}
+
+
+div#right {
+    width: 45%;
+    text-align: center;
+    float: right;
+    padding-right: 25px;
+    margin-top: -10px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 900px;
+}
+
+p {
+    font-size: 25px;
+}

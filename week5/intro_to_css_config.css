@@ -1,0 +1,49 @@
+body {
+    /* background-color: lightblue; */
+    background-image: url('img/1000 followers!.png followers!.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+div#title {
+    text-align: center;
+    background-image: url('img/@zenomeleon.gif');
+    background-size: contain;
+
+}
+
+div#description {
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#image {
+    text-align: center;
+}
+
+/* h1 {
+    font-family: Impact;
+    color: rgb(122, 30, 161);
+    text-align: center;
+    background-image: url('@zenomeleon.gif');
+    background-size: contain;
+}
+
+p {
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+} */
+
+
+
+/* img {
+
+    justify-content: center;
+} */

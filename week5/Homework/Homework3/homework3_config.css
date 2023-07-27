@@ -1,0 +1,36 @@
+#main {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: -10px;
+    margin-right: -20px;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    width: 40%;
+    float: right;
+    padding: 40px;
+    border: 10px solid black;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 900px;
+}
+
+h5 {
+    font-size: 30;
+    font-weight: 900px;
+}
+
+p {
+    font-size: 15px;
+}

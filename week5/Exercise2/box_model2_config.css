@@ -1,0 +1,16 @@
+div#box1 {
+    background-image: url("img/Gehenna_Intro.png");
+    background-size: cover;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+div#box2 {
+    background-image: url("img/vecteezy_geometric-low-poly-graphic-repeat-pattern-vector-background_8070315.jpg");
+    background-size: 150px;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+}

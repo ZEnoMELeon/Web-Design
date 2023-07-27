@@ -1,0 +1,93 @@
+#container {
+    font-family: 'Lato', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+#header {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+#rightcorner {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    border: 2px solid black;
+}
+
+#menu {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+
+#phone {
+    padding: 20px;
+}
+
+.link {
+    padding: 20px;
+}
+
+.slideshow {
+    width: auto;
+    height: 450px;
+    /* Adjust the height as needed */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.slides {
+    width: 300%;
+    /* Each slide will take up 33.33% width */
+    height: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+}
+
+.slides img {
+    width: 33.33%;
+    /* Each slide will take up 33.33% width */
+    height: 100%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    33.33% {
+        transform: translateX(-33.33%);
+    }
+
+    66.66% {
+        transform: translateX(-66.66%);
+    }
+}
+
+#columnholder {
+    display: flex;
+    border: 2px solid black;
+}
+
+#textcontent {
+    width: 70%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#sidebar {
+    width: 30%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#footer {
+    border: 2px solid black;
+    padding: 20px;
+}
